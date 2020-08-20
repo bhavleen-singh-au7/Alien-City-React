@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/React-App-Part-Of-Course/static/css/main.a2c3035b.chunk.css",
-    "main.js": "/React-App-Part-Of-Course/static/js/main.c43dd986.chunk.js",
-    "main.js.map": "/React-App-Part-Of-Course/static/js/main.c43dd986.chunk.js.map",
-    "runtime-main.js": "/React-App-Part-Of-Course/static/js/runtime-main.f85f162d.js",
-    "runtime-main.js.map": "/React-App-Part-Of-Course/static/js/runtime-main.f85f162d.js.map",
-    "static/css/2.3c03f26f.chunk.css": "/React-App-Part-Of-Course/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.7edbef52.chunk.js": "/React-App-Part-Of-Course/static/js/2.7edbef52.chunk.js",
-    "static/js/2.7edbef52.chunk.js.map": "/React-App-Part-Of-Course/static/js/2.7edbef52.chunk.js.map",
-    "index.html": "/React-App-Part-Of-Course/index.html",
-    "precache-manifest.37788a716efcfa7665da67eab20620c2.js": "/React-App-Part-Of-Course/precache-manifest.37788a716efcfa7665da67eab20620c2.js",
-    "service-worker.js": "/React-App-Part-Of-Course/service-worker.js",
-    "static/css/2.3c03f26f.chunk.css.map": "/React-App-Part-Of-Course/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.a2c3035b.chunk.css.map": "/React-App-Part-Of-Course/static/css/main.a2c3035b.chunk.css.map",
-    "static/js/2.7edbef52.chunk.js.LICENSE.txt": "/React-App-Part-Of-Course/static/js/2.7edbef52.chunk.js.LICENSE.txt"
+    "main.css": "/Alien-City-React/static/css/main.eeabf2b9.chunk.css",
+    "main.js": "/Alien-City-React/static/js/main.064a597a.chunk.js",
+    "main.js.map": "/Alien-City-React/static/js/main.064a597a.chunk.js.map",
+    "runtime-main.js": "/Alien-City-React/static/js/runtime-main.bfbe45ed.js",
+    "runtime-main.js.map": "/Alien-City-React/static/js/runtime-main.bfbe45ed.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/Alien-City-React/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.f0bcefc9.chunk.js": "/Alien-City-React/static/js/2.f0bcefc9.chunk.js",
+    "static/js/2.f0bcefc9.chunk.js.map": "/Alien-City-React/static/js/2.f0bcefc9.chunk.js.map",
+    "index.html": "/Alien-City-React/index.html",
+    "precache-manifest.1de367b6998d68168c315e237aa9a030.js": "/Alien-City-React/precache-manifest.1de367b6998d68168c315e237aa9a030.js",
+    "service-worker.js": "/Alien-City-React/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/Alien-City-React/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.eeabf2b9.chunk.css.map": "/Alien-City-React/static/css/main.eeabf2b9.chunk.css.map",
+    "static/js/2.f0bcefc9.chunk.js.LICENSE.txt": "/Alien-City-React/static/js/2.f0bcefc9.chunk.js.LICENSE.txt",
+    "static/media/spinner.gif": "/Alien-City-React/static/media/spinner.235b9b3e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f85f162d.js",
+    "static/js/runtime-main.bfbe45ed.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.7edbef52.chunk.js",
-    "static/css/main.a2c3035b.chunk.css",
-    "static/js/main.c43dd986.chunk.js"
+    "static/js/2.f0bcefc9.chunk.js",
+    "static/css/main.eeabf2b9.chunk.css",
+    "static/js/main.064a597a.chunk.js"
   ]
 }
