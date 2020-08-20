@@ -49,15 +49,3 @@ class App extends Component {
 }
 
 export default App;
-
-/* --------------------------- Functional Approach------
-const App = () => {
-  return (
-    <div className="tc">
-      <h1>Robo Friends</h1>
-      <SearchBox />
-      <CardList robots={robots} />
-    </div>
-  );
-};
-------------------------------------------------- */
