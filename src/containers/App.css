@@ -3,3 +3,9 @@
 h1 {
   font-family: "Berkshire Swash", cursive;
 }
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}

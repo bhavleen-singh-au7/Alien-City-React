@@ -3,13 +3,14 @@ import CardList from '../components/js/CardList';
 import SearchBox from '../components/js/SearchBox';
 import Scroll from '../components/js/Scroll.js';
 import ErrorBoundary from '../components/js/ErrorBoundary';
+import Spinner from '../img/spinner.gif';
 import './App.css';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      robots: [],
+      aliens: [],
       searchfield: ''
     };
   }
@@ -17,7 +18,7 @@ class App extends Component {
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
-      .then(users => this.setState({ robots: users }));
+      .then(users => this.setState({ aliens: users }));
   }
 
   OnSearchChange = (event) => {
@@ -25,22 +26,24 @@ class App extends Component {
   };
 
   render() {
-    const { searchfield, robots } = this.state;
+    const { searchfield, aliens } = this.state;
 
-    const filteredrobots = robots.filter(robot => {
+    const filteredaliens = aliens.filter(robot => {
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     });
 
     // keep mind - TERNARY OPERATOR 
-    return !robots.length ?
-      <h1 className='tc f1'>Loading</h1> :
+    return !aliens.length ?
+      <div className="spinner">
+        <img src={Spinner} alt="loading-spinner" />
+      </div> :
       (
         <div className="tc">
           <h1 className='f1'>Alien City</h1>
           <SearchBox searchChange={this.OnSearchChange} />
           <Scroll>
             <ErrorBoundary>
-              <CardList robots={filteredrobots} />
+              <CardList aliens={filteredaliens} />
             </ErrorBoundary>
           </Scroll>
         </div>
